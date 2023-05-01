@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7797356560478864182
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 873293091917916341, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292397896932529737, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292397896932529738, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: m_Name
+      value: AI Spaceship Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292397896932529738, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: m_TagString
+      value: Spaceship
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292397896932529739, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292397896932529739, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292397896932529739, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292397896932529739, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292397896932529739, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292397896932529739, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292397896932529739, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292397896932529739, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292397896932529739, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292397896932529739, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292397896932529739, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608948884528410605, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8165696934567913879, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: navMeshControl
+      value: 
+      objectReference: {fileID: 692061890}
+    - target: {fileID: 8165696934567913879, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: cargo.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8165696934567913879, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: cargo.Array.data[0].cost
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 8165696934567913879, guid: 3ca572aa437356641b1791574dafa8bb,
+        type: 3}
+      propertyPath: cargo.Array.data[0].quantity
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ca572aa437356641b1791574dafa8bb, type: 3}
+--- !u!1 &4721237007417709948 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3292397896932529738, guid: 3ca572aa437356641b1791574dafa8bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 7797356560478864182}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &692061890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721237007417709948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5585efbda44c8cb4a99d90ea8d850c21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followTarget: {fileID: 0}
+  agent: {fileID: 692061891}
+  moveEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4721237007417709950}
+        m_TargetAssemblyTypeName: SpaceshipMovement, Assembly-CSharp
+        m_MethodName: SetMoveVector
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!195 &692061891
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721237007417709948}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 2
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 90
+  m_StoppingDistance: 2
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 2
+--- !u!114 &4721237007417709950 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3292397896932529736, guid: 3ca572aa437356641b1791574dafa8bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 7797356560478864182}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721237007417709948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 857cc84f268d11e46a398236413117fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
